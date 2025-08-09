@@ -1,0 +1,17 @@
+[project]
+name = "pylox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daniel John", email = "daniel.john.projects@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pylox = "pylox:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
